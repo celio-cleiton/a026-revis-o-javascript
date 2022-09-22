@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/register.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <h1>Seja Bem Vindo!</h1>
+    </header>
+    <main>
+        <div class="container">
+            <!--FORMULÁRIO DE CADASTRO-->
+            <div id="cadastro">
+                <form>
+                    <h1>Cadastro</h1>
+                    <label for="nome_cad">Seu nome</label>
+                    <input id="nome_cad" required="required" type="text" placeholder="Digite seu Nome" />
+                    <label for="email_cad">Seu e-mail</label>
+                    <input id="email_cad" required="required" type="email" placeholder="Digite seu E-mail" />
+                    <label for="senha_cad">Sua senha</label>
+                    <input id="senha_cad" required="required" type="password" placeholder="Digite sua Senha" />
+                    <input type="submit" onclick="cadastrar()" />
+                    <p class="link">
+                        Já tem conta?
+                        <a href="./index.html"> Ir para Login </a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
