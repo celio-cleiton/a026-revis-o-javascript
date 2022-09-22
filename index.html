@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-    <script src="index.js" defer></script>
+    <script src="script.js"></script>
+    <title>Postinho de Vacinação - JS</title>
+    
 </head>
 <body>
     <header>
@@ -16,13 +17,13 @@
     <main>
         <div id="login-container">
             <h1>Login</h1>
-            <form action="">
+            <form>
                 <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" placeholder="Digite seu E-mail" autocomplete="off">
+                <input type="email" id="email" placeholder="Digite seu E-mail" autocomplete="off">
                 <label for="password">Senha</label>
-                <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                <input type="password" id="password" placeholder="Digite sua senha">
                 <a href="#" id="forgot-pass">Esqueceu a senha?</a>
-                <input type="submit" value="Login">
+                <input type="submit" onclick="logar()">
             </form>
         
         <div id="social-container">
@@ -32,7 +33,7 @@
         </div>
         <div id="register-container">
             <p>Ainda não tem uma conta?</p>
-            <a href="#">Registra</a>
+            <a href="./register.html">Criar Conta</a>
         </div>
     </div>
     </main>
